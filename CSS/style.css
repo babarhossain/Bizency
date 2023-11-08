@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --FirstFont: 'Ubuntu', sans-serif;
+    --secondFont: 'Open Sans', sans-serif;
+    --ThirdFont: 'Abril Fatface', serif;
+    --mainColor: #0f2f44;
+    --secondColor: #ffc712;
+    --ThirdColor: #8484bf;
+    --FourthColor: #444444;
+
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: var(--FirstFont);
+}
+
+.align-center{
+    align-items: center;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.button{
+    background-color: #8484bf;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding: 17px 40px;
+    border-radius: 10%;
+}
+
+/* Header Starts */
+header{
+    background-color: var(--mainColor);
+    color: white;
+    padding: 19px 0;
+    
+}
+
+header .welcome{
+    width: 50%;
+    
+}
+header .open{
+    text-align: right;
+    width: 50%;
+}
+/* Header Ends */
+
+/* Navbar Starts */
+
+nav .logo{
+    width: 30%;
+    
+}
+
+nav .menu{
+    width: 70%;
+    text-align: right;
+
+}
+
+nav .menu ul li{
+    display: inline-block;
+    
+}
+
+nav .menu ul li a{
+    font-weight: 500;
+    color: #222;
+    font-size: 16px;
+    padding: 40px 19px;
+    display: block;
+    transition: 0.04s;
+
+}
+
+nav .menu ul li:hover a{
+    color: var(--secondColor);
+    background-color: #fff9e6;
+
+}
+
+nav .menu ul li span{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+
+/* Navbar Ends */
+
+/* Banner Starts */
+#banner{
+    background-image: url(../images/Banner.jpg);
+    height: 600px;
+    background-position: center;
+}
+
+.banner-cnt h4{
+    font-weight: 400;
+    font-size: 50px;
+    color: var(--mainColor);
+}
+.banner-cnt h1{
+    font-weight: 400;
+    font-size: 80px;
+    color: var(--mainColor);
+    font-family:var(--ThirdFont);
+    line-height: 85px;
+}
+
+.banner-cnt{
+    width: 40%;
+    padding: 142px 0;
+}
+.banner-cnt h5{
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--ThirdColor);
+    letter-spacing: 15px;
+}
+
+.banner-cnt p{
+    font-size: 14px;
+    color: #444444;
+    font-family: var(--secondFont);
+    margin: 32px 0;
+}
+
+.banner-cnt .button a{
+    color: white;
+}
+
+.banner-cnt .button:hover a{
+    color: var(--mainColor);
+}
+
+
+.banner-cnt span{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    display: inline-block;
+    text-align: center;
+    line-height: 55px;
+    background-color: #ffffff;
+    margin: 0 20px;
+    color: #8484bf;
+
+}
+
+.banner-cnt .play:hover span{
+    background-color: #0f2f44;
+
+}
+
+
+
+/* Banner ends */
